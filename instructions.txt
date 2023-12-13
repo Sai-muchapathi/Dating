@@ -1,0 +1,20 @@
+dotnet --version 
+
+dotnet new sln (creates a new solution file).
+dotnet new webapi -n API --use-controllers (creates templates | skeleton).
+
+dotnet sln add API/  (moves content to the solution).
+
+
+dotnet watch
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.sqlite
+
+dotnet ef migrations add InitialCreate -o Data/Migrations
+dotnet ef database update
+
+dotnet tool install --global dotnet-ef --version 8.0.0
+dotnet new gitignore
+
+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
