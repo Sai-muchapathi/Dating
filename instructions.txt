@@ -17,4 +17,10 @@ dotnet ef database update
 dotnet tool install --global dotnet-ef --version 8.0.0
 dotnet new gitignore
 
+ng new client
+ng add ngx-bootstrap
+
+mkcert -install
+mkcert localhost
+
 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
